@@ -1,0 +1,285 @@
+.bold-header{
+    font-weight: bold;
+}
+
+.btn-custom-padding {
+    padding: 10px 130px;
+}
+
+.card-img-container {
+    height: 200px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    width: 80%;
+    height: auto;
+}
+
+.padding{
+    padding: 1px 1px;
+    font-size:medium;
+}
+
+/* General styles for container spacing */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Adjust padding and margins for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .fw-bold {
+        font-size: 1.2rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    img {
+        height: auto; /* Make images adapt to container width */
+    }
+
+    .card-img-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Buttons spacing */
+    .btn-custom-padding {
+        padding: 10px 20px;
+    }
+
+    /* Adjust card spacing in similar items */
+    .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .similar-items h3 {
+        text-align: center;
+    }
+
+    /* Carousel adjustments */
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Adjust the container */
+    .container {
+        padding: 15px;
+    }
+
+    /* Headings and text adjustments */
+    h1 {
+        font-size: 1.5rem; /* Reduce main heading size */
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .fw-bold {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    /* Button adjustments */
+    .btn {
+        font-size: 0.85rem;
+        padding: 8px 15px;
+    }
+
+    .btn-custom-padding {
+        padding: 8px 12px;
+    }
+
+    /* Carousel image adjustments */
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust Similar Items card layout */
+    .col-md-3 {
+        flex: 0 0 50%; /* Two cards per row */
+        max-width: 50%;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    /* Accordion adjustments */
+    .accordion-header {
+        font-size: 1rem;
+    }
+
+    .accordion-body {
+        font-size: 0.9rem;
+    }
+
+    /* Delivery and coupon section adjustments */
+    .d-flex.align-items-center.mb-2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .p-3.border.rounded.bg-light {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    /* Adjusting table for Payment Info */
+    table.table {
+        font-size: 0.9rem;
+    }
+
+    td, th {
+        font-size: 0.9rem;
+    }
+
+    /* Adjust card for full width spacing */
+    .card-body {
+        padding: 10px;
+    }
+
+    /* Carousel indicators spacing */
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+
+    /* Add space between sections */
+    .mt-5 {
+        margin-top: 20px !important;
+    }
+
+    .mb-5 {
+        margin-bottom: 20px !important;
+    }
+
+    /* Adjust buy/add to cart buttons spacing */
+    .d-flex.justify-content-center.mt-4 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn {
+        width: 100%; /* Full-width buttons */
+    }
+}
+@media (max-width: 325px) {
+    /* Adjust the container to prevent overflow */
+    .container {
+        padding: 10px;
+    }
+
+    /* Headings and text adjustments */
+    h1 {
+        font-size: 1.2rem; /* Reduce main heading size */
+    }
+
+    h4 {
+        font-size: 1rem; /* Smaller subheadings */
+    }
+
+    .fw-bold {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        line-height: 1.2;
+    }
+
+    /* Button adjustments */
+    .btn {
+        font-size: 0.75rem;
+        padding: 6px 12px; /* Smaller buttons */
+    }
+
+    .btn-custom-padding {
+        padding: 6px 10px;
+    }
+
+    /* Adjust image sizes */
+    .carousel-item img, 
+    .card-img-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Cards layout for Similar Items */
+    .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .card-body h5 {
+        font-size: 0.9rem;
+    }
+
+    .card-body p {
+        font-size: 0.75rem;
+    }
+
+    /* Accordion adjustments */
+    .accordion-header {
+        font-size: 0.9rem;
+    }
+
+    .accordion-body {
+        font-size: 0.8rem;
+    }
+
+    /* Carousel indicators spacing fix */
+    .carousel-indicators li {
+        width: 8px;
+        height: 8px;
+    }
+
+    /* Adjust delivery and discount sections */
+    .d-flex.align-items-center.mb-2 {
+        flex-direction: column; /* Stack vertically */
+        align-items: flex-start;
+    }
+
+    /* Table adjustments for Payment Info */
+    table.table {
+        font-size: 0.8rem;
+    }
+
+    /* Remove extra spacing */
+    .mt-5, .mb-5 {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
