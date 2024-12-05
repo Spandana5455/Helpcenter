@@ -1,0 +1,52 @@
+.help-center {
+    background-color: #d3e1dc;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.custom-card {
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+/* For tablets and above (576px and larger) */
+@media (min-width: 576px) {
+    .fs-1 {
+      font-size: 1.75rem; 
+    }
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+  
+/* For medium screens and above (768px and larger) */
+@media (min-width: 768px) {
+    .fs-1 {
+      font-size: 2rem; 
+    }
+    .col-md-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+  
+/* For large screens and above (1024px and larger) */
+@media (min-width: 1024px) {
+    .fs-1 {
+        font-size: 2.5rem; 
+    }
+    
+    .col-md-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+  

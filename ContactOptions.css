@@ -1,0 +1,45 @@
+.card.card-custom {
+    padding: 2rem !important; /* Reduce internal spacing */
+    height: auto !important; /* Let the height adjust to the content */
+    min-height: 2rem !important; /* Set a smaller minimum height */
+    align-items: start; /* Vertical alignment of content */
+    margin-bottom: 0rem; /* Adjust spacing between cards */
+}
+.card.card-custom .card-body {
+    padding: 0.5rem !important; /* Reduce padding inside card body */
+}
+  
+.card-body {
+    display: flex; /* Enables flexbox */
+    align-items: start; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Creates space between elements */
+}
+  
+.card-body span:first-child {
+    text-align: start; /* Ensures text aligns to the start */
+    flex-grow: 1; /* Pushes the next element to the far end */
+}
+  
+.card-body span:last-child {
+    margin-left: 1rem; /* Adds spacing between the text and ">" */
+}
+.gap-custom{
+    margin-left: 715px !important; /* Override other styles */
+}
+.gap2-custom{
+    margin-left: 900px !important; /* Override other styles */;
+}
+  
+
+  
+
+  
+  
+  
+
+  
+  
+  
+
+
+  

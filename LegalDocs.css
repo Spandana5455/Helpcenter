@@ -1,0 +1,13 @@
+
+.custom{
+    padding: 2rem !important; /* Reduce internal spacing */
+    height: auto !important; /* Let the height adjust to the content */
+    min-height: 2rem !important; /* Set a smaller minimum height */
+    align-items: start; /* Vertical alignment of content */
+    margin-bottom: 0rem;
+}
+
+.custom-gap {
+    margin-left: 1000px !important; /* Override other styles */
+}
+  
